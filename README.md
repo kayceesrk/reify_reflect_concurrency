@@ -4,8 +4,9 @@ Monadic reflection on concurrency monad.
 
 ## Install
 
-$ opam remote add multicore https://github.com/ocamllabs/multicore-opam.git
-$ opam switch 4.02.2+multicore
+    $ opam remote add multicore https://github.com/ocamllabs/multicore-opam.git
+    $ opam switch 4.02.2+multicore
+    $ make
 
 ## Configurations
 
