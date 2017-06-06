@@ -16,11 +16,11 @@ Monadic reflection on concurrency monad.
 - [chameneos_monad](https://github.com/kayceesrk/reify_reflect_concurrency/blob/master/chameneos_monad.ml):
   chameneos-redux benchmar in monadic style. The scheduler and MVar
   implementations are monadic. Uses concurrency monad.
-- [chameneos](https://github.com/kayceesrk/reify_reflect_concurrency/blob/master/chameneos_rr.ml):
+- [chameneos_rr](https://github.com/kayceesrk/reify_reflect_concurrency/blob/master/chameneos_rr.ml):
   chameneos-redux benchmark in direct-style using reify-reflect on monadic
   scheduler and MVar. Illustrates that one can recover direct-style without
   changing monadic libraries whole-sale.
-- [chameneos](https://github.com/kayceesrk/reify_reflect_concurrency/blob/master/chameneos_shallow.ml):
+- [chameneos_shallow](https://github.com/kayceesrk/reify_reflect_concurrency/blob/master/chameneos_shallow.ml):
   Shallow monadic implementation over direct-style scheduler and MVar. The idea
   is to illustrate that you can get the beneficial type-level marker that you
   get with monadic libraries with a simple shallow embedding. With monadic
