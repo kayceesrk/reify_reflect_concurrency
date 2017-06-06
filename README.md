@@ -14,7 +14,7 @@ Monadic reflection on concurrency monad.
   chameneos-redux benchmark in direct-style using algebraic effect handlers. The
   scheduler and MVar implementations are in direct-style.
 - [chameneos_monad](https://github.com/kayceesrk/reify_reflect_concurrency/blob/master/chameneos_monad.ml):
-  chameneos-redux benchmar in monadic style. The scheduler and MVar
+  chameneos-redux benchmark in monadic style. The scheduler and MVar
   implementations are monadic. Uses concurrency monad.
 - [chameneos_rr](https://github.com/kayceesrk/reify_reflect_concurrency/blob/master/chameneos_rr.ml):
   chameneos-redux benchmark in direct-style using reify-reflect on monadic
